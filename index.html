@@ -1,31 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Smart Chat UI</title>
+    <title>Technical Chat Bot</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="chat-container">
-
-    <div class="chat-header">
-        💬 Smart Chat Bot
-    </div>
-
-    <div class="chat-body" id="chatBody">
-        <div class="message bot">
-            Hello 👋 Ask me something!
+    <div class="chat-container">
+        <div class="chat-header">Technical Chat Bot</div>
+        <div class="chat-messages" id="chatMessages"></div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Ask something...">
+            <button id="sendBtn">Send</button>
         </div>
     </div>
-
-    <div class="chat-footer">
-        <input type="text" id="messageInput" placeholder="Type a message...">
-        <button id="sendBtn">➤</button>
-    </div>
-
-</div>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
